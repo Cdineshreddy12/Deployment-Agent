@@ -1,0 +1,39 @@
+{
+  "name": "deployment-agent-cli",
+  "version": "1.0.0",
+  "description": "CLI agent for Deployment Agent platform - Connect to AWS EC2, manage deployments, and execute remote commands",
+  "main": "index.js",
+  "bin": {
+    "deploy-agent": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "deployment",
+    "cli",
+    "aws",
+    "ec2",
+    "ssh",
+    "terraform"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "axios": "^1.6.2",
+    "inquirer": "^9.2.12",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "table": "^6.8.1",
+    "ssh2": "^1.15.0",
+    "aws-sdk": "^2.1519.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}
+
+
+
+
